@@ -5,4 +5,4 @@ import './index.css';
 
 const divRoot = document.getElementById('app');
 
-ReactDOM.render(<PrimeraApp />, divRoot);
+ReactDOM.render(<PrimeraApp useTest='Test' />, divRoot);
