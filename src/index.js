@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import CounterApp from './CounterApp';
 
-import './index.css';
+import './reset.css';
 
 const divRoot = document.getElementById('app');
 
-ReactDOM.render(<CounterApp value={1993} />, divRoot);
+ReactDOM.render(<CounterApp value={10} />, divRoot);
