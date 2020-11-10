@@ -1,12 +1,22 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const PrimeraApp = () => (
-  <>
-    <h1>Test</h1>
-    <p>Este es un Test</p>
-  </>
-);
+const PrimeraApp = ({ useTest, subtitle }) => {
+
+  return (
+    <>
+      <h1>{ useTest }</h1>
+      <p>{ subtitle }</p>
+    </>
+  );
+};
+
+PrimeraApp.propTypes = {
+  useTest: PropTypes.string.isRequired,
+};
+
+PrimeraApp.defaultProps = {
+  subtitle: 'Soy un test',
+};
 
 export default PrimeraApp;
-
-
