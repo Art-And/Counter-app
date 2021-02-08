@@ -6,4 +6,4 @@ import './reset.css';
 
 const divRoot = document.getElementById('app');
 
-ReactDOM.render(<CounterApp value={10} />, divRoot);
+ReactDOM.render(<CounterApp value={0} />, divRoot);
